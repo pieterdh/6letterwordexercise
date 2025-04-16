@@ -36,17 +36,17 @@ The application handles the following exceptions:
 
 ## Open questions
 
-- Should we also support word combinations that have a smaller length then what is configured?
-- How should we handle duplicates?
-- Is the sequence of the words important to make a combination?
-- Do we need to take into account case sensitivity, special characters?
+- Should we allow word combinations that are shorter than the configured length?
+- How should duplicate entries be treated?
+- Does the order of words matter when forming a combination?
+- Should we consider case sensitivity and special characters?
 
 ## Future improvements
 
-- Add support for Localization. Messages are hardcoded in English and should be moved to a resource file.
-- Add additional logging/tracing.
-- Test against a larger dataset.
-- Allow the option to easily support more file types based in user preference or provided file extension.
-- Take into account that data also can come in from another datasource then a file.
-- Concurrent processing of multiple files.
-- Learning opportunity: Use SpecFlow to optimize BDD-style test readability and coverage
+- Implement Localization support. The messages are currently hardcoded in English and should be moved to a resource file.
+- Enhance logging and tracing capabilities.
+- Perform tests with a larger dataset.
+- Enable support for additional file types based on user preferences or the file extension provided.
+- Consider that data may also originate from a source other than a file.
+- Support concurrent processing of multiple files.
+- Learning opportunity: Utilize SpecFlow to improve the readability and coverage of BDD-style tests.
