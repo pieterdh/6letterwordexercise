@@ -7,6 +7,7 @@ using WordCombinerConsoleApp.Domain.Models;
 
 namespace WordCombinerConsoleApp.Tests
 {
+    [Trait("Category", "Integration")]
     public class WordServiceIntegrationTests
     {
         [Fact]

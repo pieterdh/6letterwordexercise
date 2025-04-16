@@ -5,6 +5,7 @@ using WordCombinerConsoleApp.Domain.Models;
 
 namespace WordCombinerConsoleApp.Tests
 {
+    [Trait("Category", "Unit")]
     public class WordCombinerTests
     {
         [Fact]

@@ -2,6 +2,7 @@
 
 namespace WordCombinerTests
 {
+    [Trait("Category", "Unit")]
     public class TxtFileWordProviderTests
     {
         [Fact]
