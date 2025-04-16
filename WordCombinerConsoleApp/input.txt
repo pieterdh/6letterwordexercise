@@ -1,0 +1,4 @@
+﻿foobar
+fo
+o
+bar
