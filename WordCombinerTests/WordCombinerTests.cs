@@ -76,7 +76,7 @@ namespace WordCombinerConsoleApp.Tests
         }
 
         [Fact]
-        public void Should_take_case_sensativity_into_account_when_looking_for_word_combinations()
+        public void Should_take_case_sensitivity_into_account_when_looking_for_word_combinations()
         {
             var words = new List<string> { "foo", "Bar", "FOOBAR" };
             var combiner = new WordCombiner(Options.Create(WordCombinerSettings.Default));
